@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Email</title>
+<!-- CSS -->
+	<style type="text/css">
+		a {
+			text-decoration: none;
+			color: #414892;
+			font-size: 16px;
+		}
+		body {
+			Margin: 0;
+			padding: 0;
+			background-color: #d5d6d8; 
+			/* f6f9fc */
+		}
+		
+		img {
+			border: 0;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+		}
+		.outer {
+			Margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			border-spacing: 0;
+			font-family: sans-serif;
+			color: #4a4a4a;
+		}
+		.three-columns {
+			text-align: center;
+			padding-top: 40px;
+			padding-bottom: 30px;
+			/* outlook */
+			font-size: 0;
+		}
+		.three-columns .column {
+			width: 100%;
+			max-width: 200px;
+			/* trick to making tables responsive */
+			display: inline-block;
+			vertical-align: top;
+		}
+		.padding {
+			/* outlook you want to specify padding-top, padding-right etc */
+			padding: 15px;
+		}
+		.wrapper {
+			width: 100%;
+			table-layout: fixed;
+			background-color: #d5d6d8;
+			padding-bottom: 40px;
+		}
+		.wrapper .content {
+			font-size: 15px;
+			line-height: 20px;
+		}
+		.webkit {
+			max-width: 600px;
+			background-color: #ffffff;
+		}
+
+		@media screen and (max-width: 400px) {
+			img.product {
+				width: 200px!important;
+				max-width: 200px!important;
+			}
+
+		}
+	</style>
+<!-- HTML -->
+</head>
+<body>
+	<center class="wrapper">
+		<div class="webkit">
+			<table class="outer" align="center">
+
+				<tr>
+					<td>
+						<table width="100%" style="border-spacing: 0;">
+							<tr>
+								<td style="background-color: #929cbb;padding:10px;text-align:center;"" >
+									<a href="https://www.laureneggers.com"><img src="./img/logo-long.png" width="180px" alt="logo" title="logo"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://www.laureneggers.com">
+							<img src="./img/1200x700.jpg" width="600px" style="max-width:100%;" alt="Banner">
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!-- content - columns -->
+						<table width="100%" style="border-spacing: 0">
+							<tr>
+								<td class="three-columns">
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href=""><img src="./img/logo.png" class="product" width="150px" style="max-width:150px" alt="product image"></a>
+															
+														</td>
+													</tr>
+													<tr>
+														<td style="padding:10px;">
+															<p style="font-size:17px;font-weight:bold;">LAUREN</p>
+															<p>
+																Web Developer versed in MERN, SERN stacks.
+															</p>
+															<a href="#">Learn More...</a>
+														</td>
+														
+													</tr>
+													
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href=""><img src="./img/380x280.jpg" class="product" width="150px" style="max-width:150px" alt="product image"></a>
+															
+														</td>
+													</tr>
+													<tr>
+														<td style="padding:10px;">
+															<p style="font-size:17px;font-weight:bold;">APPLE WATCH</p>
+															<p>
+																Built-in cellular lets you receive calls, send texts, and check your email — even without your phone.
+															</p>
+															<a href="#">Learn More...</a>
+														</td>
+														
+													</tr>
+													
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href=""><img src="./img/380x280-2.jpg" class="product" width="150px" style="max-width:150px" alt="product image"></a>
+															
+														</td>
+													</tr>
+													<tr>
+														<td style="padding:10px;">
+															<p style="font-size:17px;font-weight:bold;">AIRPODS</p>
+															<p>
+																Built-in cellular lets you receive calls, send texts, and check your email — even without your phone.
+															</p>
+															<a href="#">Learn More...</a>
+														</td>
+														
+													</tr>
+													
+												</table>
+											</td>
+										</tr>
+									</table>
+									<table class="column">
+										<tr>
+											<td class="padding">
+												<table class="content">
+													<tr>
+														<td>
+															<a href=""><img src="./img/380x280-3.jpg" class="product product-img-fourth" width="150px" style="max-width:150px" alt="product image"></a>
+															
+														</td>
+													</tr>
+													<tr>
+														<td style="padding:10px;">
+															<p style="font-size:17px;font-weight:bold;">WATCH BANDS</p>
+															<p>
+																Stylish bands in all colors to complement your Apple Watch
+															</p>
+															<a href="#">Learn More...</a>
+														</td>
+														
+													</tr>
+													
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						<!-- end three columns -->
+					</td>
+				</tr>
+
+				<!-- social media -->
+
+				<tr>
+					<td>
+						<table width="100%" style="border-spacing:0;">
+							<tr>
+								<td style="background-color: #929cbb;padding: 15px;text-align: center;">
+									<p style="font-size:18px;color: #ffffff;Margin-Bottom:10 px;">Connect With Us!</p>
+									<a href="#"><img src="./img/white-facebook.png" width="30px;" alt="facebook icon"></a>
+									<a href="#"><img src="./img/white-instagram.png" width="30px;" alt="instragram icon"></a>
+									<a href="#"><img src="./img/white-linkedin.png" width="30px;" alt="linkedin icon"></a>
+									<a href="#"><img src="./img/white-twitter.png" width="30px;" alt="twitter icon"></a>
+									<a href="#"><img src="./img/white-youtube.png" width="30px;" alt="youtube icon"></a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+				<!-- footer -->
+				<tr>
+					<td style="background-color: #efefef;">
+						<table width="100%" style="border-spacing: 0;">
+
+							<tr>
+								<td align="center" style="padding: 20px;text-align: center;">
+									<a href="#"><img src="./img/logo-long.png" width="160px" alt="logo"></a>
+									<p style="font-size: 16px;Margin-top:18px;">
+										HTML Email
+									</p>
+									<p style="font-size: 16px;Margin-bottom:10px;">
+										123 Summer St. City, State 111111
+									</p>
+									<p style="font-size: 16px;Margin-bottom:10px;">
+										<a href="mailto:email@example.com">email@example.com</a>
+									</p>
+									<p style="font-size: 16px;Margin-bottom:10px;">
+										<a href="tel:18008888888">1-800-888-8888</a>
+									</p>
+
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p style="padding-bottom:25px;text-align:center;">
+										<a href="#" style="font-size:12px;">UNSUBSCRIBE</a>
+									</p>
+								</td>
+							</tr>
+
+							<tr>
+								<td height="20px" style="background-color: #929cbb;">
+
+								</td>
+							</tr>
+
+						</table>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</center>
+	
+</body>
+</html>
